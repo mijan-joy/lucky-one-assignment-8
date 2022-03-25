@@ -7,11 +7,11 @@
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 20px;
 }
 .cart-container {
   background-color: rgba(255, 153, 0, 0.3);
-
+  width: 300px;
   margin-right: 10px;
   border-radius: 8px;
 }

@@ -12,7 +12,7 @@ const Product = ({ product, handleAddToCart}) => {
         <div className="product">
            <img src={img} alt=""></img>
            <div className="product-info">
-           <p className='product-name'>{name}</p>
+           <p className='product-name'> {name}</p>
            <p className='product-price'>Price: ${price}</p>
            <p className='product-seller'>Seller: {seller}</p>
            <p className='product-ratings'>Ratings: {ratings} stars</p>
