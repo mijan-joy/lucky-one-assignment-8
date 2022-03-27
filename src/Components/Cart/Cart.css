@@ -1,0 +1,66 @@
+.selection-area {
+  position: sticky;
+  top: 0;
+  padding: 0 1rem;
+}
+h3,
+h2 {
+  text-align: center;
+}
+.selected-item {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.selected-item div h3 {
+  font-size: 1.3rem;
+}
+
+.selected-item div p {
+  padding-top: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  height: 1rem;
+}
+
+.selected-item div:nth-child(odd) {
+  overflow: hidden;
+}
+
+.selected-item div:nth-child(even) {
+  font-style: italic;
+  text-align: center;
+}
+.count-item {
+  font-size: 10px;
+  margin-left: -5px;
+  color: red;
+}
+.item-images img {
+  width: 50px;
+}
+.chosen-button {
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  background-color: #30ff4f;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 0 10px 0;
+  margin-top: 20px;
+  bottom: 0;
+}
+.delete-button {
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  background-color: #ff3030;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 0 10px 0;
+  margin-top: 20px;
+  bottom: 0;
+}

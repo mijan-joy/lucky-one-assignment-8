@@ -1,0 +1,12 @@
+.footer-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.qs-container {
+  margin: 20px;
+}
+text {
+  text-align: justify;
+}
